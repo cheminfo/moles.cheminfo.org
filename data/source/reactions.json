@@ -1,0 +1,222 @@
+[
+  {
+    "reactifs": "Sb2S3 + HCl",
+    "produits": "H3SbCl6 + H2S"
+  },
+  {
+    "reactifs": "C6H12O6 + O2",
+    "produits": "H2O + CO2"
+  },
+  {
+    "reactifs": "H2 + O2",
+    "produits": "H2O"
+  },
+  {
+    "reactifs": "P + O2",
+    "produits": "P2O5"
+  },
+  {
+    "reactifs": "NH3 + O2",
+    "produits": "NO + H2O"
+  },
+  {
+    "reactifs": "C27H48O + O2",
+    "produits": "CO2 + H2O"
+  },
+  {
+    "reactifs": "C55H106O3 + O2",
+    "produits": "CO2 + H2O"
+  },
+  {
+    "reactifs": "KNO3 + C + S",
+    "produits": "K2S + CO2 + N2"
+  },
+  {
+    "reactifs": "NH4ClO4",
+    "produits": "N2 + H2O + HCl + O2"
+  },
+  {
+    "reactifs": "C3H5N3O9",
+    "produits": "CO2 + H2O + N2 + O2"
+  },
+  {
+    "reactifs": "Al4C3 + H2O",
+    "produits": "CH4 + Al(OH)3"
+  },
+  {
+    "reactifs": "Al + MnO2",
+    "produits": "Mn + Al2O3"
+  },
+  {
+    "reactifs": "C12H22O11 + O2",
+    "produits": "CO2 + H2O"
+  },
+  {
+    "reactifs": "PBr5 + H2O",
+    "produits": "H3PO4 + HBr"
+  },
+  {
+    "reactifs": "C8H18 + O2",
+    "produits": "CO2 + H2O"
+  },
+  {
+    "reactifs": "NO2 + H2O",
+    "produits": "HNO3 + NO"
+  },
+  {
+    "reactifs": "H3PO3",
+    "produits": "H3PO4 + PH3"
+  },
+  {
+    "reactifs": "CN2H6 + N2O4",
+    "produits": "N2 + H2O + CO2"
+  },
+  {
+    "reactifs": "C8H18 + O2",
+    "produits": "CO2 + H2O"
+  },
+  {
+    "reactifs": "C7H5N3O6 + O2",
+    "produits": "CO2 + H2O + N2"
+  },
+  {
+    "reactifs": "C11H23 + O2",
+    "produits": "CO2 + H2O"
+  },
+  {
+    "reactifs": "K2Cr2O7 + C2H5OH + H2SO4",
+    "produits": "K2SO4 + Cr2(SO4)3 + CO2 + H2O"
+  },
+  {
+    "reactifs": "P + HNO3 + H2O",
+    "produits": "H3PO4 + NO"
+  },
+  {
+    "reactifs": "HPO3 + C",
+    "produits": "H2O + CO + P"
+  },
+  {
+    "reactifs": "SF6 + H2S",
+    "produits": "S + HF"
+  },
+  {
+    "reactifs": "KI + KIO3 + HCl",
+    "produits": "I2 + KCl + H2O"
+  },
+  {
+    "reactifs": "Fe2O3 + HCl",
+    "produits": "FeCl3 + H2O"
+  },
+  {
+    "reactifs": "MnO2 + HCl",
+    "produits": "MnCl2 + Cl2 + H2O"
+  },
+  {
+    "reactifs": "Al + Fe3O4",
+    "produits": "Al2O3 + Fe"
+  },
+  {
+    "reactifs": "C6H12O6",
+    "produits": "C2H5OH + CO2"
+  },
+  {
+    "reactifs": "CH4 + O2",
+    "produits": "CO2 + H2O"
+  },
+  {
+    "reactifs": "HNO3 + HI",
+    "produits": "H2O + I2 + NO"
+  },
+  {
+    "reactifs": "FeCl3  + MgO",
+    "produits": "Fe2O3 + MgCl2"
+  },
+  {
+    "reactifs": "C5H11NH2 + O2",
+    "produits": "CO2 + H2O + NO2"
+  },
+  {
+    "reactifs": "NH3 + N2O",
+    "produits": "N2 + H2O"
+  },
+  {
+    "reactifs": "NH4NO3",
+    "produits": "N2 + O2 + H2O"
+  },
+  {
+    "reactifs": "N2O + CH4",
+    "produits": "N2 + CO2 + H2O"
+  },
+  {
+    "reactifs": "N2H4 + N2O4",
+    "produits": "N2 + H2O"
+  },
+  {
+    "reactifs": "KMnO4",
+    "produits": "K2O + MnO + O2"
+  },
+  {
+    "reactifs": "C6H6 + H2O2",
+    "produits": "CO2 + H2O"
+  },
+  {
+    "reactifs": "CH3CCl3 + O2",
+    "produits": "CO2 + H2O + Cl2"
+  },
+  {
+    "reactifs": "HClO4 + P4O10",
+    "produits": "H3PO4 + Cl2O7"
+  },
+  {
+    "reactifs": " C4H10S + O2",
+    "produits": "CO2 + H2O + SO2"
+  },
+  {
+    "reactifs": "CO + H2",
+    "produits": "C8H18 + H2O"
+  },
+  {
+    "reactifs": "FeS + O2",
+    "produits": "Fe2O3 + SO2"
+  },
+  {
+    "reactifs": "FeS + O2",
+    "produits": "Fe2O3 + SO3"
+  },
+  {
+    "reactifs": "As + NaOH",
+    "produits": "Na3AsO3 + H2"
+  },
+  {
+    "reactifs": "C8H18 + O2",
+    "produits": " CO + H2O"
+  },
+  {
+    "reactifs": "FeSO4 + K2Cr2O7 + H2SO4",
+    "produits": "Fe2(SO4)3 + K2SO4 + Cr2(SO4)3 + H2O"
+  },
+  {
+    "reactifs": "HNO3 + HI",
+    "produits": "H2O + I2 + NO"
+  },
+  {
+    "reactifs": "Cr2O3 + PbO2 + KOH",
+    "produits": "K2CrO4 + PbO + H2O"
+  },
+  {
+    "reactifs": "KNO2 + KMnO4 + H2SO4",
+    "produits": "KNO3 + MnSO4 + K2SO4 + H2O"
+  },
+  {
+    "reactifs": "K3CrO3 + KMnO4 + H2O",
+    "produits": "K2CrO4 + MnO2 + KOH"
+  },
+  {
+    "reactifs": "FeSO4 + KMnO4 + H2SO4",
+    "produits": "Fe2(SO4)3 + K2SO4 + MnSO4 + H2O"
+  },
+  {
+    "reactifs": "KIO3 + FeCl2\t+ HCl",
+    "produits": "FeCl3 +I2\t+ KCl + H2O"
+  }
+]

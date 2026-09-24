@@ -1,0 +1,263 @@
+[
+  {
+    "mf": " C25H30N3Cl",
+    "nom": "Violet de gentiane"
+  },
+  {
+    "nom": "Alun de potassium",
+    "mf": " KAl(SO4)2"
+  },
+  {
+    "nom": "Dibrome",
+    "mf": "Br2"
+  },
+  {
+    "mf": "C",
+    "name": "diamond",
+    "nom": "diamant"
+  },
+  {
+    "nom": "Eugénol",
+    "mf": "C10H12O2"
+  },
+  {
+    "nom": "Nicotine",
+    "mf": "C10H14N2"
+  },
+  {
+    "nom": "Thymol",
+    "mf": "C10H14O"
+  },
+  {
+    "name": "ecstasy",
+    "mf": "C11H15NO2",
+    "nom": "Ecstasy"
+  },
+  {
+    "nom": "Ibuprofène",
+    "mf": "C13H18O2"
+  },
+  {
+    "nom": "Indigo",
+    "mf": "C16H10N2O2",
+    "name": "Indigo"
+  },
+  {
+    "nom": "Pourpre de Tyr",
+    "mf": "C16H8Br2N2O2"
+  },
+  {
+    "mf": "C16H9N4Na3O9S2",
+    "nom": "Tartrazine (colorant alimentaire jaune)"
+  },
+  {
+    "name": "cocaine",
+    "mf": "C17H21NO4",
+    "nom": "Cocaïne"
+  },
+  {
+    "mf": "C27H46O",
+    "nom": "Cholestérol"
+  },
+  {
+    "nom": "Acide acétique",
+    "mf": "C2H4O2"
+  },
+  {
+    "name": "ethanol",
+    "mf": "C2H5OH",
+    "nom": "Ethanol"
+  },
+  {
+    "nom": "Acide lactique",
+    "mf": "C3H6O3"
+  },
+  {
+    "nom": "Alanine",
+    "mf": "C3H7NO2 "
+  },
+  {
+    "mf": "C3H7NO2S",
+    "nom": "Cystéine"
+  },
+  {
+    "mf": "C43H66N12O12S2",
+    "nom": "Ocytocine"
+  },
+  {
+    "nom": "Cytosine",
+    "mf": "C4H5N3O"
+  },
+  {
+    "nom": "Adénine",
+    "mf": "C5H5N5"
+  },
+  {
+    "nom": "Guanine",
+    "mf": "C5H5N5O"
+  },
+  {
+    "nom": "Thymine",
+    "mf": "C5H6N2O2"
+  },
+  {
+    "nom": "Buckminsterfullerène",
+    "mf": "C60"
+  },
+  {
+    "nom": "Glucose",
+    "mf": "C6H12O6"
+  },
+  {
+    "nom": "Vanilline",
+    "mf": "C8H8O3 "
+  },
+  {
+    "nom": "Aspirine",
+    "mf": "C9H8O4"
+  },
+  {
+    "nom": "Urée",
+    "mf": "CH4N2O"
+  },
+  {
+    "nom": "Chloroforme",
+    "mf": "CHCl3"
+  },
+  {
+    "nom": "Carbure de calcium",
+    "mf": "CaC2"
+  },
+  {
+    "nom": "Carbonate de calcium",
+    "mf": "CaCO3"
+  },
+  {
+    "nom": "Dichlore",
+    "mf": "Cl2"
+  },
+  {
+    "name": "cupper sulfate",
+    "mf": "CuSO4",
+    "nom": "sulfate de cuivre"
+  },
+  {
+    "nom": "Oxyde de fer(III)",
+    "mf": "Fe2O3"
+  },
+  {
+    "nom": "Chlorure de fer(III)",
+    "mf": "FeCl3"
+  },
+  {
+    "nom": "Oxyde de fer(II)",
+    "mf": "FeO"
+  },
+  {
+    "mf": "FeS2",
+    "name": "pyrite",
+    "nom": "pyrite"
+  },
+  {
+    "nom": "Acide oxalique",
+    "mf": "H2C2O4"
+  },
+  {
+    "nom": "Eau",
+    "mf": "H2O"
+  },
+  {
+    "nom": "Eau oxygénée",
+    "mf": "H2O2"
+  },
+  {
+    "nom": "Sulfure d'hydrogène",
+    "mf": "H2S"
+  },
+  {
+    "mf": "H3NSO3",
+    "nom": "Acide sulfamique (détartramt)"
+  },
+  {
+    "nom": "Acide phosphorique",
+    "mf": "H3PO4"
+  },
+  {
+    "nom": "Diiode",
+    "mf": "I2"
+  },
+  {
+    "nom": "Bichormate de potassium",
+    "mf": "K2Cr2O7"
+  },
+  {
+    "nom": "Hydrogénophosphate de potassium",
+    "mf": "K2HPO4"
+  },
+  {
+    "nom": "Superoxyde de potassium",
+    "mf": "K2O2"
+  },
+  {
+    "nom": "Dihydrogénophosphate de potassium",
+    "mf": "KH2PO4"
+  },
+  {
+    "nom": "Iodure de potassium",
+    "mf": "KI"
+  },
+  {
+    "nom": "Magnésium",
+    "mf": "Mg"
+  },
+  {
+    "nom": "Sulfate de magnésium hydraté",
+    "mf": "MgSO4 H2O"
+  },
+  {
+    "nom": "Ammoniac",
+    "mf": "NH3"
+  },
+  {
+    "nom": "Thiosulfate de sodium",
+    "mf": "Na2S2O3"
+  },
+  {
+    "name": "kitchen salt",
+    "mf": "NaCl",
+    "nom": "sel de cuisine"
+  },
+  {
+    "nom": "Bicarbonate de sodium",
+    "mf": "NaHCO3"
+  },
+  {
+    "nom": "Hydroxyde de sodium",
+    "mf": "NaOH"
+  },
+  {
+    "nom": "Phosphore élémentaire",
+    "mf": "P4"
+  },
+  {
+    "nom": "Chromate de plomb(II)",
+    "mf": "PbCrO4"
+  },
+  {
+    "nom": "Soufre",
+    "mf": "S8"
+  },
+  {
+    "name": "quartz",
+    "mf": "SiO2",
+    "nom": "quartz"
+  },
+  {
+    "nom": "Oxyde de silicium",
+    "mf": "SiO2"
+  },
+  {
+    "nom": "Xénon",
+    "mf": "Xe"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "mf": "Al2O3",
+    "name": "Oxyde d'aluminium",
+    "quantity": "20g",
+    "nom": "Oxyde d'aluminium"
+  },
+  {
+    "mf": "Sb2O5",
+    "nom": "Oxyde d'antimoine",
+    "quantity": "5g"
+  },
+  {
+    "mf": "Ag2O",
+    "nom": "Oxyde d'argent (I)",
+    "quantity": "100g"
+  },
+  {
+    "mf": "BaO",
+    "nom": "Oxyde de baryum",
+    "quantity": "10g"
+  },
+  {
+    "mf": "C",
+    "nom": "Carbone",
+    "quantity": "5g"
+  },
+  {
+    "mf": "BeO",
+    "nom": "Oxyde de beryllium",
+    "quantity": "1g"
+  },
+  {
+    "mf": "Bi2O5",
+    "nom": "Oxyde de bismuth",
+    "quantity": "1g"
+  }
+]
