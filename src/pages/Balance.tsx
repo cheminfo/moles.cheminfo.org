@@ -1,5 +1,6 @@
 import type { ReactElement } from 'react';
 import { useMemo, useState } from 'react';
+import { ClickToCopy } from 'react-cheminfo/ui';
 import { MF } from 'react-mf';
 
 import type { Reaction } from '../chemistry/balance.ts';
@@ -14,7 +15,7 @@ import { ExerciseSeries } from '../shared/ExerciseSeries.tsx';
 import { FormulaInput } from '../shared/FormulaInput.tsx';
 import { FormulaProblem } from '../shared/FormulaProblem.tsx';
 import { ToolPage } from '../shared/ToolPage.tsx';
-import { BALANCE_TOOL } from '../tools/balance.ts';
+import { BALANCE_TOOL, balancedEquation } from '../tools/balance.ts';
 
 /**
  * Balance a chemical reaction.
@@ -41,7 +42,12 @@ export function Balance(): ReactElement {
           prompt={(reaction) => (
             <>
               <p className="question-compound">
-                <ReactionLine reaction={reaction} />
+                <ClickToCopy
+                  label="reaction"
+                  value={`${reaction.reactants.join(' + ')} -> ${reaction.products.join(' + ')}`}
+                >
+                  <ReactionLine reaction={reaction} />
+                </ClickToCopy>
               </p>
               <p>
                 Give each species its coefficient, with the smallest whole
@@ -144,7 +150,12 @@ function BalancedView(props: {
   return (
     <>
       <p className="calculator__result">
-        <ReactionLine reaction={reaction} coefficients={coefficients} />
+        <ClickToCopy
+          label="balanced reaction"
+          value={balancedEquation(reaction, coefficients)}
+        >
+          <ReactionLine reaction={reaction} coefficients={coefficients} />
+        </ClickToCopy>
       </p>
       <CalculatorTable headers={['Element', 'Left', 'Right']}>
         {totals.map((line) => (

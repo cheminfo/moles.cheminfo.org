@@ -2,6 +2,7 @@ import { FormGroup, InputGroup } from '@blueprintjs/core';
 import type { ReactElement } from 'react';
 import { useId, useMemo, useState } from 'react';
 import { formatDecimal } from 'react-cheminfo/core';
+import { ClickToCopy } from 'react-cheminfo/ui';
 
 import { massComposition } from '../chemistry/composition.ts';
 import { compoundName } from '../data/names.ts';
@@ -92,11 +93,20 @@ function SampleCalculator(): ReactElement {
             <tr key={element.symbol}>
               <td>{element.symbol}</td>
               <td>{formatDecimal(element.percent, 2)}</td>
-              <td>
+              <ClickToCopy
+                as="td"
+                label={`mass of ${element.symbol}`}
+                disabled={mass === null}
+                value={
+                  mass === null
+                    ? ''
+                    : formatDecimal((element.percent / 100) * mass, 4)
+                }
+              >
                 {mass === null
                   ? '—'
                   : formatDecimal((element.percent / 100) * mass, 4)}
-              </td>
+              </ClickToCopy>
             </tr>
           ))}
         </CalculatorTable>

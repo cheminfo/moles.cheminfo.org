@@ -62,3 +62,13 @@ test('the mass of each element in a sample', async ({ page }) => {
   await page.goto('/grams');
   await expect(page.getByRole('row', { name: /^Al/ })).toContainText('10.585');
 });
+
+test('a computed value is copied by clicking it', async ({ page, context }) => {
+  await context.grantPermissions(['clipboard-read', 'clipboard-write']);
+  await page.goto('/percent');
+  await page.getByLabel('Formula').fill('H2O');
+  await page.locator('.calculator__total td').first().click();
+  await expect
+    .poll(async () => page.evaluate(() => navigator.clipboard.readText()))
+    .toBe('18.015');
+});

@@ -1,11 +1,12 @@
 import type { ReactElement } from 'react';
 import { useMemo, useState } from 'react';
 import { formatDecimal } from 'react-cheminfo/core';
-import { MF } from 'react-mf';
+import { ClickToCopy } from 'react-cheminfo/ui';
 
 import { massComposition } from '../chemistry/composition.ts';
 import { compoundName } from '../data/names.ts';
 import { CalculatorTable } from '../shared/CalculatorTable.tsx';
+import { CopyableFormula } from '../shared/CopyableFormula.tsx';
 import { ExerciseSeries } from '../shared/ExerciseSeries.tsx';
 import { FormulaInput } from '../shared/FormulaInput.tsx';
 import { FormulaProblem } from '../shared/FormulaProblem.tsx';
@@ -77,9 +78,15 @@ function CompositionCalculator(): ReactElement {
           footer={
             <tr className="calculator__total">
               <th colSpan={3}>
-                Molar mass of <MF mf={result.composition.parsed.formula} />
+                Molar mass of <CopyableFormula formula={formula} />
               </th>
-              <td>{formatDecimal(result.composition.molarMass, 3)}</td>
+              <ClickToCopy
+                as="td"
+                label="molar mass"
+                value={formatDecimal(result.composition.molarMass, 3)}
+              >
+                {formatDecimal(result.composition.molarMass, 3)}
+              </ClickToCopy>
               <td>100</td>
             </tr>
           }
@@ -90,7 +97,13 @@ function CompositionCalculator(): ReactElement {
               <td>{element.count}</td>
               <td>{formatDecimal(element.atomicMass, 3)}</td>
               <td>{formatDecimal(element.mass, 3)}</td>
-              <td>{formatDecimal(element.percent, 2)}</td>
+              <ClickToCopy
+                as="td"
+                label={`mass percent of ${element.symbol}`}
+                value={formatDecimal(element.percent, 2)}
+              >
+                {formatDecimal(element.percent, 2)}
+              </ClickToCopy>
             </tr>
           ))}
         </CalculatorTable>
