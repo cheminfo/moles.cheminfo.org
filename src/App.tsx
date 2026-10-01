@@ -36,14 +36,7 @@ import { Cheatsheet } from './pages/Cheatsheet.tsx';
 import { Grams } from './pages/Grams.tsx';
 import { Percent } from './pages/Percent.tsx';
 import type { TabId } from './routes.ts';
-import {
-  HOME_TAB,
-  REPOSITORY,
-  ROUTES,
-  SITE_ID,
-  SITE_NAME,
-  routeForTab,
-} from './routes.ts';
+import { HOME_TAB, ROUTES, SITE_ID, SITE_NAME, routeForTab } from './routes.ts';
 import { state } from './state/index.ts';
 import { pinnedSearch, startPreferenceSync } from './state/preferences.ts';
 import { navigate, router, startDocumentTitles } from './state/router.ts';
@@ -135,11 +128,7 @@ export function App(): ReactElement {
           heading="The rest of the cheminfo family"
         >
           <p className="app-footer-note">
-            Open source, MIT licensed —{' '}
-            <a href={REPOSITORY} target="_blank" rel="noreferrer noopener">
-              the sources of this site
-            </a>
-            . Every series of questions is a link you can hand out or frame in a
+            Every series of questions is a link you can hand out or frame in a
             course page.
           </p>
         </SiteFooter>
